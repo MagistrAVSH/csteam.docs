@@ -1,0 +1,107 @@
+{
+  "api/CryptoSteam.AppConfig.html": {
+    "href": "api/CryptoSteam.AppConfig.html",
+    "title": "Class AppConfig | CryptoSteamSDK",
+    "keywords": "Class AppConfig Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents the configuration of game config [Serializable] public class AppConfig Inheritance object AppConfig Fields supported_devices A list of supported devices for the application. public string[] supported_devices Field Value string[] supported_screen_formats The orientation of the application ('landscape' | 'portrait' | 'fullscreen'). public string[] supported_screen_formats Field Value string[]"
+  },
+  "api/CryptoSteam.Config.html": {
+    "href": "api/CryptoSteam.Config.html",
+    "title": "Class Config | CryptoSteamSDK",
+    "keywords": "Class Config Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents the configuration of the CryptoSteam SDK. [Serializable] public class Config Inheritance object Config Fields supported_devices A list of supported devices for the application. public string[] supported_devices Field Value string[] supported_screen_formats The orientation of the application ('landscape' | 'portrait' | 'fullscreen'). public string[] supported_screen_formats Field Value string[]"
+  },
+  "api/CryptoSteam.CryptoSteamSDK.html": {
+    "href": "api/CryptoSteam.CryptoSteamSDK.html",
+    "title": "Class CryptoSteamSDK | CryptoSteamSDK",
+    "keywords": "Class CryptoSteamSDK Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Provides various methods for interacting with the CryptoSteam SDK. public static class CryptoSteamSDK Inheritance object CryptoSteamSDK Methods CreateInvoice(string, string, decimal) Creates an invoice asynchronously. public static Task<InvoiceResponse> CreateInvoice(string title, string description, decimal amount) Parameters title string The title of the invoice. description string The description of the invoice. amount decimal The amount for the invoice. Returns Task<InvoiceResponse> The response from the invoice creation. GetBalance() Retrieves the user's balance. public static Task<string> GetBalance() Returns Task<string> The balance as a string. GetConfig() Retrieves the configuration for loaded game public static GameConfig GetConfig() Returns GameConfig The configuration of the SDK. GetProfile() Retrieves the user's profile asynchronously. public static Task<UserProfile> GetProfile() Returns Task<UserProfile> The user's profile. GetShopItems() Retrieves shop items. public static Task<ShopItem> GetShopItems() Returns Task<ShopItem> A list of shop items. GetStartParam() Retrieves the start parameter of the application. public static string GetStartParam() Returns string The start parameter. GetVersion() Retrieves the version of the SDK. public static string GetVersion() Returns string The version string. IsAdEnabled() Checks if advertisements are enabled. public static Task<bool> IsAdEnabled() Returns Task<bool> True if ads are enabled; otherwise, false. IsAdRunning() Checks if an advertisement is currently running. public static bool IsAdRunning() Returns bool True if an ad is running; otherwise, false. RequestAd() Requests an advertisement to be shown. public static void RequestAd() Share(string) Shares a parameter via the Telegram Share API. public static string Share(string param) Parameters param string The parameter to share. Returns string A result indicating the status of the operation. TrackGameEvent(string) Tracks a custom game event. public static void TrackGameEvent(string eventName) Parameters eventName string The name of the event to track."
+  },
+  "api/CryptoSteam.CryptoSteamSDKShopItem.html": {
+    "href": "api/CryptoSteam.CryptoSteamSDKShopItem.html",
+    "title": "Class CryptoSteamSDKShopItem | CryptoSteamSDK",
+    "keywords": "Class CryptoSteamSDKShopItem Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents an item in the CryptoSteam SDK shop. [Serializable] public class CryptoSteamSDKShopItem Inheritance object CryptoSteamSDKShopItem Fields created The date and time when the shop item was created. public DateTime created Field Value DateTime description The description of the shop item. public string description Field Value string id The unique identifier of the shop item. public int id Field Value int name The name of the shop item. public string name Field Value string price The price of the shop item. public decimal price Field Value decimal updated The date and time when the shop item was last updated. public DateTime updated Field Value DateTime"
+  },
+  "api/CryptoSteam.GameConfig.html": {
+    "href": "api/CryptoSteam.GameConfig.html",
+    "title": "Class GameConfig | CryptoSteamSDK",
+    "keywords": "Class GameConfig Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents the configuration of game config [Serializable] public class GameConfig Inheritance object GameConfig Fields supported_devices A list of supported devices for the application. public string[] supported_devices Field Value string[] supported_screen_formats The orientation of the application ('landscape' | 'portrait' | 'fullscreen'). public string[] supported_screen_formats Field Value string[]"
+  },
+  "api/CryptoSteam.InvoiceResponse.html": {
+    "href": "api/CryptoSteam.InvoiceResponse.html",
+    "title": "Class InvoiceResponse | CryptoSteamSDK",
+    "keywords": "Class InvoiceResponse Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents the response from creating an invoice. [Serializable] public class InvoiceResponse Inheritance object InvoiceResponse Fields invoice_link The link to the created invoice. public string invoice_link Field Value string"
+  },
+  "api/CryptoSteam.Profile.html": {
+    "href": "api/CryptoSteam.Profile.html",
+    "title": "Class Profile | CryptoSteamSDK",
+    "keywords": "Class Profile Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents a user profile within the CryptoSteam SDK. [Serializable] public class Profile Inheritance object Profile Fields ads_free Indicates whether the user's account is free from advertisements. public bool ads_free Field Value bool avatar The URL of the user's avatar image. public string avatar Field Value string balance The user's account balance. public ulong balance Field Value ulong birth_date The user's date of birth. public string birth_date Field Value string email The user's email address. public string email Field Value string experience The total experience points the user has earned. public ulong experience Field Value ulong first_name The first name of the user. public string first_name Field Value string games_count The number of games associated with the user. public ulong games_count Field Value ulong id The unique identifier of the user. public ulong id Field Value ulong invited The number of users the current user has invited. public ulong invited Field Value ulong is_admin Indicates whether the user is an administrator. public bool is_admin Field Value bool last_name The last name of the user. public string last_name Field Value string location The user's location or address. public string location Field Value string phone_number The user's phone number. public string phone_number Field Value string user_name The username of the user. public string user_name Field Value string"
+  },
+  "api/CryptoSteam.SDKAd.html": {
+    "href": "api/CryptoSteam.SDKAd.html",
+    "title": "Class SDKAd | CryptoSteamSDK",
+    "keywords": "Class SDKAd Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents an advertisement in the CryptoSteam SDK. [Serializable] public class SDKAd Inheritance object SDKAd Fields durationS The duration of the ad in seconds, if applicable. public double? durationS Field Value double? is_available Indicates whether the ad is available. public bool is_available Field Value bool mediaType The type of media in the ad (e.g., image, gif, video). public string mediaType Field Value string url The URL to the ad content. public string url Field Value string"
+  },
+  "api/CryptoSteam.SDKAdMediaType.html": {
+    "href": "api/CryptoSteam.SDKAdMediaType.html",
+    "title": "Class SDKAdMediaType | CryptoSteamSDK",
+    "keywords": "Class SDKAdMediaType Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Contains constants for advertisement media types. public static class SDKAdMediaType Inheritance object SDKAdMediaType Fields Gif Media type for GIF ads. public const string Gif = \"gif\" Field Value string Image Media type for image ads. public const string Image = \"image\" Field Value string Video Media type for video ads. public const string Video = \"video\" Field Value string"
+  },
+  "api/CryptoSteam.ShopItem.html": {
+    "href": "api/CryptoSteam.ShopItem.html",
+    "title": "Class ShopItem | CryptoSteamSDK",
+    "keywords": "Class ShopItem Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents an item in the CryptoSteam SDK shop. [Serializable] public class ShopItem Inheritance object ShopItem Fields created The date and time when the shop item was created. public DateTime created Field Value DateTime description The description of the shop item. public string description Field Value string id The unique identifier of the shop item. public int id Field Value int name The name of the shop item. public string name Field Value string price The price of the shop item. public decimal price Field Value decimal updated The date and time when the shop item was last updated. public DateTime updated Field Value DateTime"
+  },
+  "api/CryptoSteam.UserProfile.html": {
+    "href": "api/CryptoSteam.UserProfile.html",
+    "title": "Class UserProfile | CryptoSteamSDK",
+    "keywords": "Class UserProfile Namespace CryptoSteam Assembly CryptoSteamSDKDocs.dll Represents a user profile in the CryptoSteam SDK. [Serializable] public class UserProfile Inheritance object UserProfile Fields ads_free Indicates whether the user's account is free from advertisements. public bool ads_free Field Value bool avatar The URL of the user's avatar image. public string avatar Field Value string balance The user's account balance. public ulong balance Field Value ulong birth_date The user's date of birth. public string birth_date Field Value string email The user's email address. public string email Field Value string experience The total experience points the user has earned. public ulong experience Field Value ulong first_name The first name of the user. public string first_name Field Value string games_count The number of games associated with the user. public ulong games_count Field Value ulong id The unique identifier of the user. public ulong id Field Value ulong invited The number of users the current user has invited. public ulong invited Field Value ulong is_admin Indicates whether the user is an administrator. public bool is_admin Field Value bool last_name The last name of the user. public string last_name Field Value string location The user's location or address. public string location Field Value string phone_number The user's phone number. public string phone_number Field Value string user_name The username of the user. public string user_name Field Value string"
+  },
+  "api/CryptoSteam.Utils.Window.Location.html": {
+    "href": "api/CryptoSteam.Utils.Window.Location.html",
+    "title": "Class Window.Location | CryptoSteamSDK",
+    "keywords": "Class Window.Location Namespace CryptoSteam.Utils Assembly CryptoSteamSDKDocs.dll public static class Window.Location Inheritance object Window.Location Properties Hash public static string Hash { get; } Property Value string Host public static string Host { get; } Property Value string Href public static string Href { get; } Property Value string Methods Redirect(string) public static void Redirect(string url) Parameters url string RedirectRelative(string) public static void RedirectRelative(string url) Parameters url string RedirectRelativeWindow(string) public static void RedirectRelativeWindow(string url) Parameters url string RedirectWindow(string) public static void RedirectWindow(string url) Parameters url string Reload() public static void Reload()"
+  },
+  "api/CryptoSteam.Utils.Window.html": {
+    "href": "api/CryptoSteam.Utils.Window.html",
+    "title": "Class Window | CryptoSteamSDK",
+    "keywords": "Class Window Namespace CryptoSteam.Utils Assembly CryptoSteamSDKDocs.dll public static class Window Inheritance object Window"
+  },
+  "api/CryptoSteam.Utils.html": {
+    "href": "api/CryptoSteam.Utils.html",
+    "title": "Namespace CryptoSteam.Utils | CryptoSteamSDK",
+    "keywords": "Namespace CryptoSteam.Utils Classes Window Window.Location"
+  },
+  "api/CryptoSteam.html": {
+    "href": "api/CryptoSteam.html",
+    "title": "Namespace CryptoSteam | CryptoSteamSDK",
+    "keywords": "Namespace CryptoSteam Classes CryptoSteamSDK Provides various methods for interacting with the CryptoSteam SDK. GameConfig Represents the configuration of game config InvoiceResponse Represents the response from creating an invoice. ShopItem Represents an item in the CryptoSteam SDK shop. UserProfile Represents a user profile in the CryptoSteam SDK."
+  },
+  "api/CryptoSteamSDKDocs.Class1.html": {
+    "href": "api/CryptoSteamSDKDocs.Class1.html",
+    "title": "Class Class1 | CryptoSteamSDK",
+    "keywords": "Class Class1 Namespace CryptoSteamSDKDocs Assembly CryptoSteamSDKDocs.dll public class Class1 Inheritance object Class1 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CryptoSteamSDKDocs.html": {
+    "href": "api/CryptoSteamSDKDocs.html",
+    "title": "Namespace CryptoSteamSDKDocs | CryptoSteamSDK",
+    "keywords": "Namespace CryptoSteamSDKDocs Classes Class1"
+  },
+  "com.cryptosteam.sdk/README.html": {
+    "href": "com.cryptosteam.sdk/README.html",
+    "title": "com.cryptosteam.sdk | CryptoSteamSDK",
+    "keywords": "com.cryptosteam.sdk"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | CryptoSteamSDK",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | CryptoSteamSDK",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| CryptoSteamSDK",
+    "keywords": "com.cryptosteam.sdk"
+  }
+}

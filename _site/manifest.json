@@ -1,0 +1,268 @@
+{
+  "source_base_path": "C:/Users/avsh/LocalProjects/_TG/sdk_doc/CryptoSteamSDKDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.AppConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.AppConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.Config.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.CryptoSteamSDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.CryptoSteamSDK.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.CryptoSteamSDKShopItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.CryptoSteamSDKShopItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.GameConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.GameConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.InvoiceResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.InvoiceResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.Profile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.Profile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.SDKAd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.SDKAd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.SDKAdMediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.SDKAdMediaType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.ShopItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.ShopItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.UserProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.UserProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.Utils.Window.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.Utils.Window.Location.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.Utils.Window.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.Utils.Window.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteamSDKDocs.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteamSDKDocs.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteamSDKDocs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteamSDKDocs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "com.cryptosteam.sdk/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "com.cryptosteam.sdk/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
