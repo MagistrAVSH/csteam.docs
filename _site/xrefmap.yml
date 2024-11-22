@@ -198,15 +198,15 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.Share
   nameWithType: CryptoSteamSDK.Share
-- uid: CryptoSteam.CryptoSteamSDK.TrackGameEvent(System.String)
-  name: TrackGameEvent(string)
-  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_TrackGameEvent_System_String_
-  commentId: M:CryptoSteam.CryptoSteamSDK.TrackGameEvent(System.String)
-  name.vb: TrackGameEvent(String)
-  fullName: CryptoSteam.CryptoSteamSDK.TrackGameEvent(string)
-  fullName.vb: CryptoSteam.CryptoSteamSDK.TrackGameEvent(String)
-  nameWithType: CryptoSteamSDK.TrackGameEvent(string)
-  nameWithType.vb: CryptoSteamSDK.TrackGameEvent(String)
+- uid: CryptoSteam.CryptoSteamSDK.TrackGameEvent(System.String,System.String)
+  name: TrackGameEvent(string, string)
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_TrackGameEvent_System_String_System_String_
+  commentId: M:CryptoSteam.CryptoSteamSDK.TrackGameEvent(System.String,System.String)
+  name.vb: TrackGameEvent(String, String)
+  fullName: CryptoSteam.CryptoSteamSDK.TrackGameEvent(string, string)
+  fullName.vb: CryptoSteam.CryptoSteamSDK.TrackGameEvent(String, String)
+  nameWithType: CryptoSteamSDK.TrackGameEvent(string, string)
+  nameWithType.vb: CryptoSteamSDK.TrackGameEvent(String, String)
 - uid: CryptoSteam.CryptoSteamSDK.TrackGameEvent*
   name: TrackGameEvent
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_TrackGameEvent_
@@ -484,36 +484,12 @@ references:
   commentId: T:CryptoSteam.UserProfile
   fullName: CryptoSteam.UserProfile
   nameWithType: UserProfile
-- uid: CryptoSteam.UserProfile.ads_free
-  name: ads_free
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_ads_free
-  commentId: F:CryptoSteam.UserProfile.ads_free
-  fullName: CryptoSteam.UserProfile.ads_free
-  nameWithType: UserProfile.ads_free
 - uid: CryptoSteam.UserProfile.avatar
   name: avatar
   href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_avatar
   commentId: F:CryptoSteam.UserProfile.avatar
   fullName: CryptoSteam.UserProfile.avatar
   nameWithType: UserProfile.avatar
-- uid: CryptoSteam.UserProfile.balance
-  name: balance
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_balance
-  commentId: F:CryptoSteam.UserProfile.balance
-  fullName: CryptoSteam.UserProfile.balance
-  nameWithType: UserProfile.balance
-- uid: CryptoSteam.UserProfile.birth_date
-  name: birth_date
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_birth_date
-  commentId: F:CryptoSteam.UserProfile.birth_date
-  fullName: CryptoSteam.UserProfile.birth_date
-  nameWithType: UserProfile.birth_date
-- uid: CryptoSteam.UserProfile.email
-  name: email
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_email
-  commentId: F:CryptoSteam.UserProfile.email
-  fullName: CryptoSteam.UserProfile.email
-  nameWithType: UserProfile.email
 - uid: CryptoSteam.UserProfile.experience
   name: experience
   href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_experience
@@ -526,48 +502,18 @@ references:
   commentId: F:CryptoSteam.UserProfile.first_name
   fullName: CryptoSteam.UserProfile.first_name
   nameWithType: UserProfile.first_name
-- uid: CryptoSteam.UserProfile.games_count
-  name: games_count
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_games_count
-  commentId: F:CryptoSteam.UserProfile.games_count
-  fullName: CryptoSteam.UserProfile.games_count
-  nameWithType: UserProfile.games_count
 - uid: CryptoSteam.UserProfile.id
   name: id
   href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_id
   commentId: F:CryptoSteam.UserProfile.id
   fullName: CryptoSteam.UserProfile.id
   nameWithType: UserProfile.id
-- uid: CryptoSteam.UserProfile.invited
-  name: invited
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_invited
-  commentId: F:CryptoSteam.UserProfile.invited
-  fullName: CryptoSteam.UserProfile.invited
-  nameWithType: UserProfile.invited
-- uid: CryptoSteam.UserProfile.is_admin
-  name: is_admin
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_is_admin
-  commentId: F:CryptoSteam.UserProfile.is_admin
-  fullName: CryptoSteam.UserProfile.is_admin
-  nameWithType: UserProfile.is_admin
 - uid: CryptoSteam.UserProfile.last_name
   name: last_name
   href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_last_name
   commentId: F:CryptoSteam.UserProfile.last_name
   fullName: CryptoSteam.UserProfile.last_name
   nameWithType: UserProfile.last_name
-- uid: CryptoSteam.UserProfile.location
-  name: location
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_location
-  commentId: F:CryptoSteam.UserProfile.location
-  fullName: CryptoSteam.UserProfile.location
-  nameWithType: UserProfile.location
-- uid: CryptoSteam.UserProfile.phone_number
-  name: phone_number
-  href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_phone_number
-  commentId: F:CryptoSteam.UserProfile.phone_number
-  fullName: CryptoSteam.UserProfile.phone_number
-  nameWithType: UserProfile.phone_number
 - uid: CryptoSteam.UserProfile.user_name
   name: user_name
   href: api/CryptoSteam.UserProfile.html#CryptoSteam_UserProfile_user_name
