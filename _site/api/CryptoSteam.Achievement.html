@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class UserProfile | CryptoSteamSDK </title>
+      <title>Class Achievement | CryptoSteamSDK </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class UserProfile | CryptoSteamSDK ">
+      <meta name="title" content="Class Achievement | CryptoSteamSDK ">
       
-      <meta name="description" content="Represents a user profile in the CryptoSteam SDK.">
+      <meta name="description" content="Represents achievement">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MagistrAVSH/csteam.docs/new/master/apiSpec/new?filename=CryptoSteam_UserProfile.md&amp;value=---%0Auid%3A%20CryptoSteam.UserProfile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MagistrAVSH/csteam.docs/new/master/apiSpec/new?filename=CryptoSteam_Achievement.md&amp;value=---%0Auid%3A%20CryptoSteam.Achievement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CryptoSteam.UserProfile">
+        <article data-uid="CryptoSteam.Achievement">
 
 
 
-  <h1 id="CryptoSteam_UserProfile" data-uid="CryptoSteam.UserProfile" class="text-break">
-Class UserProfile  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h1 id="CryptoSteam_Achievement" data-uid="CryptoSteam.Achievement" class="text-break">
+Class Achievement  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,13 @@ Class UserProfile  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>CryptoSteamSDKDocs.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents a user profile in the CryptoSteam SDK.</p>
+  <div class="markdown summary"><p>Represents achievement</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class UserProfile</code></pre>
+public class Achievement</code></pre>
   </div>
 
 
@@ -113,7 +113,7 @@ public class UserProfile</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">UserProfile</span></div>
+      <div><span class="xref">Achievement</span></div>
     </dd>
   </dl>
 
@@ -130,17 +130,48 @@ public class UserProfile</code></pre>
 
 
 
-  <h3 id="CryptoSteam_UserProfile_avatar" data-uid="CryptoSteam.UserProfile.avatar">
-  avatar
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CryptoSteam_Achievement_achieved" data-uid="CryptoSteam.Achievement.achieved">
+  achieved
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The URL of the user's avatar image.</p>
+  <div class="markdown level1 summary"><p>Achieved status</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string avatar</code></pre>
+    <pre><code class="lang-csharp hljs">public bool achieved</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CryptoSteam_Achievement_description" data-uid="CryptoSteam.Achievement.description">
+  description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Achievement description</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string description</code></pre>
   </div>
 
 
@@ -161,48 +192,17 @@ public class UserProfile</code></pre>
 
 
 
-  <h3 id="CryptoSteam_UserProfile_experience" data-uid="CryptoSteam.UserProfile.experience">
-  experience
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CryptoSteam_Achievement_icon" data-uid="CryptoSteam.Achievement.icon">
+  icon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The total experience points the user has earned.</p>
+  <div class="markdown level1 summary"><p>Icon url</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong experience</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="CryptoSteam_UserProfile_first_name" data-uid="CryptoSteam.UserProfile.first_name">
-  first_name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L38"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The first name of the user.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string first_name</code></pre>
+    <pre><code class="lang-csharp hljs">public string icon</code></pre>
   </div>
 
 
@@ -223,17 +223,17 @@ public class UserProfile</code></pre>
 
 
 
-  <h3 id="CryptoSteam_UserProfile_id" data-uid="CryptoSteam.UserProfile.id">
+  <h3 id="CryptoSteam_Achievement_id" data-uid="CryptoSteam.Achievement.id">
   id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The unique identifier of the user.</p>
+  <div class="markdown level1 summary"><p>Achievement ID</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong id</code></pre>
+    <pre><code class="lang-csharp hljs">public uint id</code></pre>
   </div>
 
 
@@ -241,7 +241,7 @@ public class UserProfile</code></pre>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
   </dl>
 
@@ -254,48 +254,17 @@ public class UserProfile</code></pre>
 
 
 
-  <h3 id="CryptoSteam_UserProfile_last_name" data-uid="CryptoSteam.UserProfile.last_name">
-  last_name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CryptoSteam_Achievement_name" data-uid="CryptoSteam.Achievement.name">
+  name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The last name of the user.</p>
+  <div class="markdown level1 summary"><p>Achievement name</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string last_name</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="CryptoSteam_UserProfile_user_name" data-uid="CryptoSteam.UserProfile.user_name">
-  user_name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L33"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The username of the user.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string user_name</code></pre>
+    <pre><code class="lang-csharp hljs">public string name</code></pre>
   </div>
 
 
@@ -319,7 +288,7 @@ public class UserProfile</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L177" class="edit-link">Edit this page</a>
         </div>
 
 

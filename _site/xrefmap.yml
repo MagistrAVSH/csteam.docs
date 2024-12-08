@@ -7,6 +7,42 @@ references:
   commentId: N:CryptoSteam
   fullName: CryptoSteam
   nameWithType: CryptoSteam
+- uid: CryptoSteam.Achievement
+  name: Achievement
+  href: api/CryptoSteam.Achievement.html
+  commentId: T:CryptoSteam.Achievement
+  fullName: CryptoSteam.Achievement
+  nameWithType: Achievement
+- uid: CryptoSteam.Achievement.achieved
+  name: achieved
+  href: api/CryptoSteam.Achievement.html#CryptoSteam_Achievement_achieved
+  commentId: F:CryptoSteam.Achievement.achieved
+  fullName: CryptoSteam.Achievement.achieved
+  nameWithType: Achievement.achieved
+- uid: CryptoSteam.Achievement.description
+  name: description
+  href: api/CryptoSteam.Achievement.html#CryptoSteam_Achievement_description
+  commentId: F:CryptoSteam.Achievement.description
+  fullName: CryptoSteam.Achievement.description
+  nameWithType: Achievement.description
+- uid: CryptoSteam.Achievement.icon
+  name: icon
+  href: api/CryptoSteam.Achievement.html#CryptoSteam_Achievement_icon
+  commentId: F:CryptoSteam.Achievement.icon
+  fullName: CryptoSteam.Achievement.icon
+  nameWithType: Achievement.icon
+- uid: CryptoSteam.Achievement.id
+  name: id
+  href: api/CryptoSteam.Achievement.html#CryptoSteam_Achievement_id
+  commentId: F:CryptoSteam.Achievement.id
+  fullName: CryptoSteam.Achievement.id
+  nameWithType: Achievement.id
+- uid: CryptoSteam.Achievement.name
+  name: name
+  href: api/CryptoSteam.Achievement.html#CryptoSteam_Achievement_name
+  commentId: F:CryptoSteam.Achievement.name
+  fullName: CryptoSteam.Achievement.name
+  nameWithType: Achievement.name
 - uid: CryptoSteam.AppConfig
   name: AppConfig
   href: api/CryptoSteam.AppConfig.html
@@ -49,6 +85,22 @@ references:
   commentId: T:CryptoSteam.CryptoSteamSDK
   fullName: CryptoSteam.CryptoSteamSDK
   nameWithType: CryptoSteamSDK
+- uid: CryptoSteam.CryptoSteamSDK.BuyShopItem(System.Int32)
+  name: BuyShopItem(int)
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_BuyShopItem_System_Int32_
+  commentId: M:CryptoSteam.CryptoSteamSDK.BuyShopItem(System.Int32)
+  name.vb: BuyShopItem(Integer)
+  fullName: CryptoSteam.CryptoSteamSDK.BuyShopItem(int)
+  fullName.vb: CryptoSteam.CryptoSteamSDK.BuyShopItem(Integer)
+  nameWithType: CryptoSteamSDK.BuyShopItem(int)
+  nameWithType.vb: CryptoSteamSDK.BuyShopItem(Integer)
+- uid: CryptoSteam.CryptoSteamSDK.BuyShopItem*
+  name: BuyShopItem
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_BuyShopItem_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.BuyShopItem
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.BuyShopItem
+  nameWithType: CryptoSteamSDK.BuyShopItem
 - uid: CryptoSteam.CryptoSteamSDK.CreateInvoice(System.String,System.String,System.Decimal)
   name: CreateInvoice(string, string, decimal)
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_CreateInvoice_System_String_System_String_System_Decimal_
@@ -65,6 +117,19 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.CreateInvoice
   nameWithType: CryptoSteamSDK.CreateInvoice
+- uid: CryptoSteam.CryptoSteamSDK.GetAchievements
+  name: GetAchievements()
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetAchievements
+  commentId: M:CryptoSteam.CryptoSteamSDK.GetAchievements
+  fullName: CryptoSteam.CryptoSteamSDK.GetAchievements()
+  nameWithType: CryptoSteamSDK.GetAchievements()
+- uid: CryptoSteam.CryptoSteamSDK.GetAchievements*
+  name: GetAchievements
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetAchievements_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.GetAchievements
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.GetAchievements
+  nameWithType: CryptoSteamSDK.GetAchievements
 - uid: CryptoSteam.CryptoSteamSDK.GetBalance
   name: GetBalance()
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetBalance
@@ -91,6 +156,19 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.GetConfig
   nameWithType: CryptoSteamSDK.GetConfig
+- uid: CryptoSteam.CryptoSteamSDK.GetLocale
+  name: GetLocale()
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetLocale
+  commentId: M:CryptoSteam.CryptoSteamSDK.GetLocale
+  fullName: CryptoSteam.CryptoSteamSDK.GetLocale()
+  nameWithType: CryptoSteamSDK.GetLocale()
+- uid: CryptoSteam.CryptoSteamSDK.GetLocale*
+  name: GetLocale
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetLocale_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.GetLocale
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.GetLocale
+  nameWithType: CryptoSteamSDK.GetLocale
 - uid: CryptoSteam.CryptoSteamSDK.GetProfile
   name: GetProfile()
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetProfile
@@ -104,6 +182,22 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.GetProfile
   nameWithType: CryptoSteamSDK.GetProfile
+- uid: CryptoSteam.CryptoSteamSDK.GetShopItem(System.Int32)
+  name: GetShopItem(int)
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetShopItem_System_Int32_
+  commentId: M:CryptoSteam.CryptoSteamSDK.GetShopItem(System.Int32)
+  name.vb: GetShopItem(Integer)
+  fullName: CryptoSteam.CryptoSteamSDK.GetShopItem(int)
+  fullName.vb: CryptoSteam.CryptoSteamSDK.GetShopItem(Integer)
+  nameWithType: CryptoSteamSDK.GetShopItem(int)
+  nameWithType.vb: CryptoSteamSDK.GetShopItem(Integer)
+- uid: CryptoSteam.CryptoSteamSDK.GetShopItem*
+  name: GetShopItem
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetShopItem_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.GetShopItem
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.GetShopItem
+  nameWithType: CryptoSteamSDK.GetShopItem
 - uid: CryptoSteam.CryptoSteamSDK.GetShopItems
   name: GetShopItems()
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetShopItems
@@ -130,6 +224,22 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.GetStartParam
   nameWithType: CryptoSteamSDK.GetStartParam
+- uid: CryptoSteam.CryptoSteamSDK.GetValue(System.String)
+  name: GetValue(string)
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetValue_System_String_
+  commentId: M:CryptoSteam.CryptoSteamSDK.GetValue(System.String)
+  name.vb: GetValue(String)
+  fullName: CryptoSteam.CryptoSteamSDK.GetValue(string)
+  fullName.vb: CryptoSteam.CryptoSteamSDK.GetValue(String)
+  nameWithType: CryptoSteamSDK.GetValue(string)
+  nameWithType.vb: CryptoSteamSDK.GetValue(String)
+- uid: CryptoSteam.CryptoSteamSDK.GetValue*
+  name: GetValue
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetValue_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.GetValue
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.GetValue
+  nameWithType: CryptoSteamSDK.GetValue
 - uid: CryptoSteam.CryptoSteamSDK.GetVersion
   name: GetVersion()
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_GetVersion
@@ -143,6 +253,19 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.GetVersion
   nameWithType: CryptoSteamSDK.GetVersion
+- uid: CryptoSteam.CryptoSteamSDK.HideShareButton
+  name: HideShareButton()
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_HideShareButton
+  commentId: M:CryptoSteam.CryptoSteamSDK.HideShareButton
+  fullName: CryptoSteam.CryptoSteamSDK.HideShareButton()
+  nameWithType: CryptoSteamSDK.HideShareButton()
+- uid: CryptoSteam.CryptoSteamSDK.HideShareButton*
+  name: HideShareButton
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_HideShareButton_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.HideShareButton
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.HideShareButton
+  nameWithType: CryptoSteamSDK.HideShareButton
 - uid: CryptoSteam.CryptoSteamSDK.IsAdEnabled
   name: IsAdEnabled()
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_IsAdEnabled
@@ -169,6 +292,19 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.IsAdRunning
   nameWithType: CryptoSteamSDK.IsAdRunning
+- uid: CryptoSteam.CryptoSteamSDK.ReloadAd
+  name: ReloadAd()
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_ReloadAd
+  commentId: M:CryptoSteam.CryptoSteamSDK.ReloadAd
+  fullName: CryptoSteam.CryptoSteamSDK.ReloadAd()
+  nameWithType: CryptoSteamSDK.ReloadAd()
+- uid: CryptoSteam.CryptoSteamSDK.ReloadAd*
+  name: ReloadAd
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_ReloadAd_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.ReloadAd
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.ReloadAd
+  nameWithType: CryptoSteamSDK.ReloadAd
 - uid: CryptoSteam.CryptoSteamSDK.RequestAd
   name: RequestAd()
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_RequestAd
@@ -182,6 +318,38 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.RequestAd
   nameWithType: CryptoSteamSDK.RequestAd
+- uid: CryptoSteam.CryptoSteamSDK.SetAchievement(System.String)
+  name: SetAchievement(string)
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_SetAchievement_System_String_
+  commentId: M:CryptoSteam.CryptoSteamSDK.SetAchievement(System.String)
+  name.vb: SetAchievement(String)
+  fullName: CryptoSteam.CryptoSteamSDK.SetAchievement(string)
+  fullName.vb: CryptoSteam.CryptoSteamSDK.SetAchievement(String)
+  nameWithType: CryptoSteamSDK.SetAchievement(string)
+  nameWithType.vb: CryptoSteamSDK.SetAchievement(String)
+- uid: CryptoSteam.CryptoSteamSDK.SetAchievement*
+  name: SetAchievement
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_SetAchievement_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.SetAchievement
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.SetAchievement
+  nameWithType: CryptoSteamSDK.SetAchievement
+- uid: CryptoSteam.CryptoSteamSDK.SetValue(System.String,System.String)
+  name: SetValue(string, string)
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_SetValue_System_String_System_String_
+  commentId: M:CryptoSteam.CryptoSteamSDK.SetValue(System.String,System.String)
+  name.vb: SetValue(String, String)
+  fullName: CryptoSteam.CryptoSteamSDK.SetValue(string, string)
+  fullName.vb: CryptoSteam.CryptoSteamSDK.SetValue(String, String)
+  nameWithType: CryptoSteamSDK.SetValue(string, string)
+  nameWithType.vb: CryptoSteamSDK.SetValue(String, String)
+- uid: CryptoSteam.CryptoSteamSDK.SetValue*
+  name: SetValue
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_SetValue_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.SetValue
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.SetValue
+  nameWithType: CryptoSteamSDK.SetValue
 - uid: CryptoSteam.CryptoSteamSDK.Share(System.String)
   name: Share(string)
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_Share_System_String_
@@ -198,6 +366,22 @@ references:
   isSpec: "True"
   fullName: CryptoSteam.CryptoSteamSDK.Share
   nameWithType: CryptoSteamSDK.Share
+- uid: CryptoSteam.CryptoSteamSDK.ShowShareButton(System.String)
+  name: ShowShareButton(string)
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_ShowShareButton_System_String_
+  commentId: M:CryptoSteam.CryptoSteamSDK.ShowShareButton(System.String)
+  name.vb: ShowShareButton(String)
+  fullName: CryptoSteam.CryptoSteamSDK.ShowShareButton(string)
+  fullName.vb: CryptoSteam.CryptoSteamSDK.ShowShareButton(String)
+  nameWithType: CryptoSteamSDK.ShowShareButton(string)
+  nameWithType.vb: CryptoSteamSDK.ShowShareButton(String)
+- uid: CryptoSteam.CryptoSteamSDK.ShowShareButton*
+  name: ShowShareButton
+  href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_ShowShareButton_
+  commentId: Overload:CryptoSteam.CryptoSteamSDK.ShowShareButton
+  isSpec: "True"
+  fullName: CryptoSteam.CryptoSteamSDK.ShowShareButton
+  nameWithType: CryptoSteamSDK.ShowShareButton
 - uid: CryptoSteam.CryptoSteamSDK.TrackGameEvent(System.String,System.String)
   name: TrackGameEvent(string, string)
   href: api/CryptoSteam.CryptoSteamSDK.html#CryptoSteam_CryptoSteamSDK_TrackGameEvent_System_String_System_String_
@@ -472,12 +656,36 @@ references:
   commentId: F:CryptoSteam.ShopItem.price
   fullName: CryptoSteam.ShopItem.price
   nameWithType: ShopItem.price
+- uid: CryptoSteam.ShopItem.purchased
+  name: purchased
+  href: api/CryptoSteam.ShopItem.html#CryptoSteam_ShopItem_purchased
+  commentId: F:CryptoSteam.ShopItem.purchased
+  fullName: CryptoSteam.ShopItem.purchased
+  nameWithType: ShopItem.purchased
+- uid: CryptoSteam.ShopItem.quantity
+  name: quantity
+  href: api/CryptoSteam.ShopItem.html#CryptoSteam_ShopItem_quantity
+  commentId: F:CryptoSteam.ShopItem.quantity
+  fullName: CryptoSteam.ShopItem.quantity
+  nameWithType: ShopItem.quantity
 - uid: CryptoSteam.ShopItem.updated
   name: updated
   href: api/CryptoSteam.ShopItem.html#CryptoSteam_ShopItem_updated
   commentId: F:CryptoSteam.ShopItem.updated
   fullName: CryptoSteam.ShopItem.updated
   nameWithType: ShopItem.updated
+- uid: CryptoSteam.ShopItemsResponse
+  name: ShopItemsResponse
+  href: api/CryptoSteam.ShopItemsResponse.html
+  commentId: T:CryptoSteam.ShopItemsResponse
+  fullName: CryptoSteam.ShopItemsResponse
+  nameWithType: ShopItemsResponse
+- uid: CryptoSteam.ShopItemsResponse.items
+  name: items
+  href: api/CryptoSteam.ShopItemsResponse.html#CryptoSteam_ShopItemsResponse_items
+  commentId: F:CryptoSteam.ShopItemsResponse.items
+  fullName: CryptoSteam.ShopItemsResponse.items
+  nameWithType: ShopItemsResponse.items
 - uid: CryptoSteam.UserProfile
   name: UserProfile
   href: api/CryptoSteam.UserProfile.html

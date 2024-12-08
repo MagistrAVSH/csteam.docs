@@ -12,6 +12,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.Achievement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.Achievement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CryptoSteam.AppConfig.yml",
       "output": {
         ".html": {
@@ -106,6 +116,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CryptoSteam.ShopItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CryptoSteam.ShopItemsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CryptoSteam.ShopItemsResponse.html"
         }
       },
       "version": ""

@@ -89,7 +89,7 @@
 
 
   <h1 id="CryptoSteam_CryptoSteamSDK" data-uid="CryptoSteam.CryptoSteamSDK" class="text-break">
-Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/Internal.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/Internal.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -128,11 +128,49 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 </h2>
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_BuyShopItem_" data-uid="CryptoSteam.CryptoSteamSDK.BuyShopItem*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_BuyShopItem_System_Int32_" data-uid="CryptoSteam.CryptoSteamSDK.BuyShopItem(System.Int32)">
+  BuyShopItem(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Buy shop item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task BuyShopItem(int itemId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>ID of item</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_CreateInvoice_" data-uid="CryptoSteam.CryptoSteamSDK.CreateInvoice*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_CreateInvoice_System_String_System_String_System_Decimal_" data-uid="CryptoSteam.CryptoSteamSDK.CreateInvoice(System.String,System.String,System.Decimal)">
   CreateInvoice(string, string, decimal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L283"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates an invoice.</p>
@@ -173,11 +211,43 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_GetAchievements_" data-uid="CryptoSteam.CryptoSteamSDK.GetAchievements*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_GetAchievements" data-uid="CryptoSteam.CryptoSteamSDK.GetAchievements">
+  GetAchievements()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L364"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all achievements available for game</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Achievement&gt; GetAchievements()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CryptoSteam.Achievement.html">Achievement</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_GetBalance_" data-uid="CryptoSteam.CryptoSteamSDK.GetBalance*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_GetBalance" data-uid="CryptoSteam.CryptoSteamSDK.GetBalance">
   GetBalance()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L254"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves the user's balance.</p>
@@ -210,7 +280,7 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
   <h3 id="CryptoSteam_CryptoSteamSDK_GetConfig" data-uid="CryptoSteam.CryptoSteamSDK.GetConfig">
   GetConfig()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L230"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves the configuration for loaded game</p>
@@ -239,11 +309,44 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_GetLocale_" data-uid="CryptoSteam.CryptoSteamSDK.GetLocale*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_GetLocale" data-uid="CryptoSteam.CryptoSteamSDK.GetLocale">
+  GetLocale()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get current user locale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetLocale()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>User locale</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_GetProfile_" data-uid="CryptoSteam.CryptoSteamSDK.GetProfile*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_GetProfile" data-uid="CryptoSteam.CryptoSteamSDK.GetProfile">
   GetProfile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L242"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves the user's profile.</p>
@@ -272,11 +375,49 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_GetShopItem_" data-uid="CryptoSteam.CryptoSteamSDK.GetShopItem*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_GetShopItem_System_Int32_" data-uid="CryptoSteam.CryptoSteamSDK.GetShopItem(System.Int32)">
+  GetShopItem(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get shop item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;ShopItem&gt; GetShopItem(int itemId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>ID of item</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CryptoSteam.ShopItem.html">ShopItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_GetShopItems_" data-uid="CryptoSteam.CryptoSteamSDK.GetShopItems*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_GetShopItems" data-uid="CryptoSteam.CryptoSteamSDK.GetShopItems">
   GetShopItems()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L289"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves shop items.</p>
@@ -284,13 +425,13 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;ShopItem[]&gt; GetShopItems()</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;ShopItemsResponse&gt; GetShopItems()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CryptoSteam.ShopItem.html">ShopItem</a>[]&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CryptoSteam.ShopItemsResponse.html">ShopItemsResponse</a>&gt;</dt>
     <dd><p>A list of shop items.</p>
 </dd>
   </dl>
@@ -309,7 +450,7 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
   <h3 id="CryptoSteam_CryptoSteamSDK_GetStartParam" data-uid="CryptoSteam.CryptoSteamSDK.GetStartParam">
   GetStartParam()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L260"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves any start parameter of the application. Currently used for transferring multiplayer session IDs to games.</p>
@@ -338,11 +479,50 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_GetValue_" data-uid="CryptoSteam.CryptoSteamSDK.GetValue*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_GetValue_System_String_" data-uid="CryptoSteam.CryptoSteamSDK.GetValue(System.String)">
+  GetValue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Key-value storage (similar to PlayerPrefs). Get value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetValue(string key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Unique key</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Value or null if value not exist</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_GetVersion_" data-uid="CryptoSteam.CryptoSteamSDK.GetVersion*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_GetVersion" data-uid="CryptoSteam.CryptoSteamSDK.GetVersion">
   GetVersion()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L248"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves the version of the SDK.</p>
@@ -371,11 +551,38 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_HideShareButton_" data-uid="CryptoSteam.CryptoSteamSDK.HideShareButton*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_HideShareButton" data-uid="CryptoSteam.CryptoSteamSDK.HideShareButton">
+  HideShareButton()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hide share button</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void HideShareButton()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_IsAdEnabled_" data-uid="CryptoSteam.CryptoSteamSDK.IsAdEnabled*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_IsAdEnabled" data-uid="CryptoSteam.CryptoSteamSDK.IsAdEnabled">
   IsAdEnabled()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L236"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks if advertisements are enabled.</p>
@@ -408,7 +615,7 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
   <h3 id="CryptoSteam_CryptoSteamSDK_IsAdRunning" data-uid="CryptoSteam.CryptoSteamSDK.IsAdRunning">
   IsAdRunning()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L306"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks if an advertisement is currently running.</p>
@@ -437,11 +644,38 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_ReloadAd_" data-uid="CryptoSteam.CryptoSteamSDK.ReloadAd*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_ReloadAd" data-uid="CryptoSteam.CryptoSteamSDK.ReloadAd">
+  ReloadAd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reload active advertisement</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ReloadAd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_RequestAd_" data-uid="CryptoSteam.CryptoSteamSDK.RequestAd*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_RequestAd" data-uid="CryptoSteam.CryptoSteamSDK.RequestAd">
   RequestAd()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L300"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Requests an advertisement to be shown.</p>
@@ -464,11 +698,79 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_SetAchievement_" data-uid="CryptoSteam.CryptoSteamSDK.SetAchievement*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_SetAchievement_System_String_" data-uid="CryptoSteam.CryptoSteamSDK.SetAchievement(System.String)">
+  SetAchievement(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unlock achievement/trophy for player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAchievement(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CryptoSteam_CryptoSteamSDK_SetValue_" data-uid="CryptoSteam.CryptoSteamSDK.SetValue*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_SetValue_System_String_System_String_" data-uid="CryptoSteam.CryptoSteamSDK.SetValue(System.String,System.String)">
+  SetValue(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Key-value storage (similar to PlayerPrefs). Set value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetValue(string key, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Unique key</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Value</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_Share_" data-uid="CryptoSteam.CryptoSteamSDK.Share*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_Share_System_String_" data-uid="CryptoSteam.CryptoSteamSDK.Share(System.String)">
   Share(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L267"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Shares any parameter via the Telegram Share API. Currently used for sharing links to games with multiplayer session ID.</p>
@@ -503,11 +805,44 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="CryptoSteam_CryptoSteamSDK_ShowShareButton_" data-uid="CryptoSteam.CryptoSteamSDK.ShowShareButton*"></a>
+
+  <h3 id="CryptoSteam_CryptoSteamSDK_ShowShareButton_System_String_" data-uid="CryptoSteam.CryptoSteamSDK.ShowShareButton(System.String)">
+  ShowShareButton(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Show share button for join new players into multiplayer session right from game overlay</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ShowShareButton(string roomId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roomId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Your internal sessionId/roomId</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="CryptoSteam_CryptoSteamSDK_TrackGameEvent_" data-uid="CryptoSteam.CryptoSteamSDK.TrackGameEvent*"></a>
 
   <h3 id="CryptoSteam_CryptoSteamSDK_TrackGameEvent_System_String_System_String_" data-uid="CryptoSteam.CryptoSteamSDK.TrackGameEvent(System.String,System.String)">
   TrackGameEvent(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/CryptoSteamSDK.cs/#L274"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tracks a custom game event. For example level completions or level ups.</p>
@@ -543,7 +878,7 @@ Class CryptoSteamSDK  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/Internal.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MagistrAVSH/csteam.docs/blob/master/com.cryptosteam.sdk/Runtime/Plugins/SDK/Internal.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
